@@ -1,0 +1,62 @@
+h1{
+    font-size:50px;
+    font-family:serif;
+    color:black;
+    text-align: center;
+    justify-content: center;
+
+
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/free-vector/gradient-blue-abstract-technology-background_23-2149213765.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    margin: 1px;
+    padding:10px;
+}
+
+button{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    margin:4px;
+    text-align: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor:pointer;
+    
+    
+}
+button:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.result {
+    margin-top: 3px;
+    padding: 10px;
+    background-color: white;
+    border : 3px solid black;
+    width: 180px;
+    height: 15px;
+    text-align: center; 
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 200px;
+    
+}
+#box{
+    border-radius: 4px;
+    color: black;
+}
